@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Museu Nacional</title>
+	<meta charset="utf-8">
+
+	<!--Normalize CSS-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!--Estilo Customizado-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+
+	<div id="container"> <!--INÍCIO CONTAINER-->
+
+	<header> <!--INÍCIO HEADER-->
+
+		<div id="logo">
+			<a href="">Museu Nacional</a>
+		</div>
+
+		<nav><!--INÍCIO NAVEGAÇÃO-->
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Exposições</a></li>
+				<li><a href="#">Pesquisa</a></li>
+				<li><a href="#">Acervo</a></li>
+				<li><a href="#">Vídeos</a></li>
+				<li><a href="#">Fotos</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+			
+		</nav> <!--FIM NAVEGAÇÃO-->
+		
+	</header> <!--FIM HEADER-->
+
+	<div id="principal"> <!--INÍCIO PRINCIPAL-->
+
+		<div id="conteudo">
+
+			<section id="capa">
+				<img src="imagens/museu.png">
+			</section>
+
+			<br>
+
+			<section id="postagens">
+				
+				<article id="video">
+					<h3>Vídeo Conheça o museu</h3>
+					<iframe width="310" height="170" src="https://www.youtube.com/embed/9xuwQ9q68hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					
+				</article>
+
+				<article id="mapa">
+					<h3>Mapa: Encontre o Museu</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58520.84730379121!2d-46.65475361800492!3d-23.548576028156905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59aa7f863793%3A0x3aed6bf8e77196df!2sMuseu%20da%20Cidade%20de%20S%C3%A3o%20Paulo%20%2F%20Solar%20da%20Marquesa%20de%20Santos!5e0!3m2!1spt-BR!2sbr!4v1637700761194!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</article>
+
+				<article id="exposicoes">
+					<h3>Exposições</h3>
+					<ul>
+						<li><a href="">Prefiro ser essa metamorfose ambulante</a></li>
+						<li><a href="">Do que ter aquela velha opinião formada sobre tudo</a></li>
+						<li><a href="">Eu quero dizer agora o oposto do que eu disse antes</a></li>
+						<li><a href="">Sobre o que é o amor</a></li>
+						<li><a href="">Sobre o que eu nem sei quem sou</a></li>
+						<li><a href="">Se hoje eu sou estrela amanhã já se apagou</a></li>
+						<li><a href="">Se hoje eu te odeio amanhã lhe tenho amor</a></li>
+						<li><a href=""><strong>Veja Mais</strong></a></li>
+					</ul>
+				</article>
+
+				<article id="historia">
+					<h3>Toca Raul</h3>
+					<p>Raul Santos Seixas foi um cantor, compositor, produtor e multi-instrumentista brasileiro, frequentemente considerado um dos pioneiros do rock brasileiro. Também foi produtor musical da CBS, durante sua estada na cidade do Rio de Janeiro e, por vezes, é chamado de Pai do Rock Brasileiro e Maluco Beleza. </p>
+					<p><a href=""><strong>Leia Mais</strong></a></p>
+				</article>
+			</section>
+
+		</div>
+
+		<aside>
+			<section id="depoimento">
+				<img src="imagens/depoimento.png">
+			</section>
+			<section id="visita"> <!--INÍCIO VISITAL-->
+				<h4>Faça uma visita</h4>
+				<form>
+					<fieldset>
+						<legend>Selecione uma data</legend>
+
+						<label for="data">Data</label>
+						<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+						<label for="qtd">Qtd pessoas
+						</label>
+						<input class="campo" type="text" id="qtd" value="1">
+
+					</fieldset>
+
+					<input class="botao" type="submit" value="Verificar Disponibilidade">
+
+				</form>
+			</section><!--FIM VISITAL-->
+
+			<section id="galeria">
+				<h4>Galeria de Fotos</h4>
+
+				<a href="">
+					<img src="imagens/imagem1.jpg" height="93px"; width="93px">
+				</a>
+
+				<a href="">
+					<img src="imagens/imagem2.jpg" height="93px"; width="93px">
+				</a>
+
+				<a href="">
+					<img src="imagens/imagem3.jpg" height="93px"; width="93px">
+				</a>
+
+				<a href="">
+					<img src="imagens/imagem4.jpg" height="93px"; width="93px">
+				</a>
+			</section>
+
+		</aside>
+		
+	</div><!--FIM PRINCIPAL-->
+
+	<footer> 
+		<p>
+			<a href="#">Home</a>
+			<a href="#">Exposições</a>
+			<a href="#">Pesquisa</a>
+			<a href="#">Acervo</a>
+			<a href="#">Videos</a>
+			<a href="#">Fotos</a>
+			<a href="#">Contato</a>
+		</p>
+		<br>
+		<p>
+			2021 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+		</p>
+	 </footer>
+
+	</div><!--FIM CONTAINER-->
+
+</body>
+</html>
